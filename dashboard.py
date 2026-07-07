@@ -6,7 +6,7 @@ from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 
 # Konfigurasi halaman
 st.set_page_config(
-    page_title="Sistem Deteksi Penyakit Daun Tomat", 
+    page_title="Sistem Klasifikasi Penyakit Daun Tomat", 
     layout="wide", 
     page_icon="🍅"
 )
