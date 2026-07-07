@@ -67,7 +67,7 @@ labels = list(descriptions.keys())
 
 # Sidebar
 with st.sidebar:
-    st.image("D:\\Downloads\\Semester 6\\Penulisan Ilmiah\\Testing WEB\\logo.png", width=255)
+    st.image("logo.png", width=255)
     st.header("Cara Penggunaan")
     st.markdown("""
     1. Pastikan objek adalah **Daun Tomat**.
