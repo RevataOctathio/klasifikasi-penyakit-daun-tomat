@@ -112,7 +112,7 @@ if file is not None:
         confidence = np.max(predictions) * 100
         
     nama_penyakit_bersih = class_name.replace('Tomato___', '').replace('_', ' ')
-    BATAS_KEYAKINAN = 85.0
+    BATAS_KEYAKINAN = 80.0
     col1, col2 = st.columns([1, 1.5]) 
     
     with col1:
